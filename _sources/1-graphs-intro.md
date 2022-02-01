@@ -144,7 +144,7 @@ labels = nx.get_node_attributes(G1, 'name') #using custom labels for nodes nx.dr
 
 ### 
 
-![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-5.png)
+![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-5.png)<br>
 (credit [European Bioinformatics Institute](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/) CC BY 2.5 Licence)
 
 * The degree is the number of edges that connect to a node
@@ -155,7 +155,7 @@ labels = nx.get_node_attributes(G1, 'name') #using custom labels for nodes nx.dr
 
 ### 
 
-![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-6.png)
+![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-6.png)<br>
 (credit [European Bioinformatics Institute](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/) CC BY 2.5 Licence)
 
 * Paths between nodes : how many nodes "hops" or steps
@@ -167,7 +167,7 @@ labels = nx.get_node_attributes(G1, 'name') #using custom labels for nodes nx.dr
 
 ### 
 
-![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-7.png)
+![](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-7.png)<br>
 (credit [European Bioinformatics Institute](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/) CC BY 2.5 Licence)
 
 * Scale-free networks are those which have high connectivity hubs
@@ -178,19 +178,12 @@ labels = nx.get_node_attributes(G1, 'name') #using custom labels for nodes nx.dr
 
 ### 
 
-![]()
-(credit [European Bioinformatics Institute](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/) CC BY 2.5 Licence)
-
-* 
-
-### 
-
 ```python
 
 ```
 ---
 
 
-**Konstantinos Krampis, 2021-present**
-Licence Creative Commons Attribution-NonCommercial-NoDerivs[CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/)<br>
-![](https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png) 
+**Author: Konstantinos Krampis, 2021**<br><br> 
+License: Creative Commons Attribution-NonCommercial-NoDerivs<br><br>
+[CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) ![](https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png) 
