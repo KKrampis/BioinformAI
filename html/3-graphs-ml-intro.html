@@ -397,7 +397,7 @@
 <div class="section" id="let-s-parse-out-the-file-and-make-a-graph-with-networkx">
 <h1>Let’s parse out the file and make a Graph with NetworkX<a class="headerlink" href="#let-s-parse-out-the-file-and-make-a-graph-with-networkx" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
   <span class="n">graphdata</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">graphdata</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
@@ -537,7 +537,7 @@
 <div class="section" id="let-s-parse-out-the-annotations">
 <h1>Let’s parse out the annotations<a class="headerlink" href="#let-s-parse-out-the-annotations" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
   <span class="n">graphdata</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]</span>
 
 <span class="n">graphdataclean</span> <span class="o">=</span> <span class="p">[]</span>
@@ -567,13 +567,18 @@
 	<span class="n">corpus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 	<span class="n">corpus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">corpus</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">])</span>
+  <span class="c1">#print(corpus[0:2])</span>
 
 <span class="n">annotwords</span> <span class="o">=</span> <span class="p">[[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span> <span class="k">for</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="n">corpus</span><span class="p">]</span>
 <span class="n">annotdict</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="p">(</span><span class="n">annotwords</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">annotwords</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">])</span>
+<span class="c1">#print(annotwords[0:2])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="p">[</span><span class="mi">100</span><span class="p">])</span>
 
 </pre></div>
 </div>

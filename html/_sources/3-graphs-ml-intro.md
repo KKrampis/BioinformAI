@@ -44,7 +44,7 @@ jupyter:
 
 ```python
 
-with open('./BioinformAI/content/15761153-cut.tsv', 'r') as f:
+with open('/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv', 'r') as f:
   graphdata = [line.rstrip().split('\t') for line in f]
 
 print(graphdata[0:3])
@@ -178,7 +178,7 @@ W
 
 ```python
 
-with open('./BioinformAI/content/15761153-cut.tsv', 'r') as f:
+with open('/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv', 'r') as f:
   graphdata = [line.rstrip().split('\t') for line in f]
 
 graphdataclean = []
@@ -207,12 +207,19 @@ for row in graphdataclean:
 	corpus.append(row[2])
 	corpus.append(row[3])
 
-print(corpus[0:2])
+  #print(corpus[0:2])
 
 annotwords = [[word for word in annotation.split()] for annotation in corpus]
 annotdict = corpora.Dictionary(annotwords)
 
-print(annotwords[0:2])
+#print(annotwords[0:2])
 print(annotdict.token2id)
+
+```
+
+
+```python
+
+print(annotdict[100])
 
 ```
