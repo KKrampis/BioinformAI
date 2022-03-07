@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A live Python coding book on Machine Learning &amp; AI applications to Computational Biology and Bioinformatics &#8212; Computational Biology &amp; Artificial Intelligence with Python</title>
+    <title>Computational Biology &amp; Artificial Intelligence with Python</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,7 +51,6 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Graph Theory and Network analysis in Bioinformatics" href="1-graphs-intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -68,63 +67,8 @@
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+<div class="col-12 col-md-2 bd-sidebar site-navigation show single-page" id="site-navigation">
     
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
-      
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Computational Biology & Artificial Intelligence with Python</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
-   A live Python coding book on Machine Learning &amp; AI applications to Computational Biology and Bioinformatics
-  </a>
- </li>
-</ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="1-graphs-intro.html">
-   Graph Theory and Network analysis in Bioinformatics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="2-graphs-parsing.html">
-   Graph theory and machine learning for bioinformatics continued
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="3-graphs-ml-intro.html">
-   Graphs and and machine learning for protein function prediction
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="4-tensors-hot-spektral.html">
-   How do we code human writen text for machine predictions
-  </a>
- </li>
-</ul>
-
-    </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
 </div>
 
 
@@ -139,33 +83,7 @@
         <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
         <div class="col pl-md-4 topbar-main">
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
             
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/intro.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -195,6 +113,354 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-1-graphs-intro">
+   Graph Theory and Network analysis in Bioinformatics
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#what-is-a-graph">
+   What is a Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#an-example-of-a-biological-graph">
+   An example of a biological graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#protein-protein-interaction-ppi-network-graphs">
+   Protein-protein interaction (PPI) network graphs
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-create-a-graph-in-python">
+   Let’s create a graph in Python
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#we-only-have-nodes-vertices-1-2-3-let-s-connect-them-with-edges">
+   We only have nodes (vertices) 1,2,3 let’s connect them with edges
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-us-add-nodes-with-attributes">
+   Let us add nodes with attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#graphs-for-complex-bioinformatics-data">
+   Graphs for complex bioinformatics data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#data-structures-for-graphs-data">
+   Data structures for graphs data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-see-this-in-python-code">
+   Let’s see this in Python code
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id3">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id4">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-2-graphs-parsing">
+   Graph theory and machine learning for bioinformatics continued
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#example-biological-graph-data-sources-for-bioinformatics-research">
+   Example biological Graph data sources for bioinformatics research
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#biological-graph-data-formats">
+   Biological Graph data formats
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#psi-mi-tab-in-terminal">
+   PSI-MI TAB in terminal
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#psi-mi-tab-in-excel">
+   PSI-MI TAB in Excel
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#parsing-psi-mi-tab-and-creating-a-graph-with-networkx">
+   Parsing PSI-MI TAB and creating a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#some-more-google-collab-tricks">
+   Some more Google Collab tricks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#draw-the-graphs">
+   Draw the graphs
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#example-networks-with-the-different-tsv-files">
+   Example networks with the different .tsv files
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#connectivity-of-the-graph-nodes">
+   Connectivity of the Graph nodes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+   Connectivity of the Graph nodes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#some-more-connectivity-metrics">
+   Some more connectivity metrics
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#paths-on-the-graph">
+   Paths on the Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#algorithmic-formal-paths-on-the-graph">
+   Algorithmic / formal paths on the Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#algorithmic-paths-on-networkx">
+   Algorithmic paths on networkx
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#bonus-adjacency-matrices-and-easy-loading-from-files">
+   Bonus: adjacency matrices and easy loading from files
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#the-documentation-of-functions-and-algorithms-of-networkx">
+   The documentation of functions and algorithms of networkx
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-3-graphs-ml-intro">
+   Graphs and and machine learning for protein function prediction
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#prepare-file-with-network-data">
+   Prepare file with network data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#python-list-slicing-and-lambda-functions">
+   Python list slicing and lambda functions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-parse-out-the-file-and-make-a-graph-with-networkx">
+   Let’s parse out the file and make a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+   Let’s parse out the file and make a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-smaller-graph-to-visualize-easier">
+   A smaller graph to visualize easier
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#more-dimensions-in-the-node-data-for-machine-predictions">
+   More dimensions in the node data for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#how-do-we-code-human-writen-text-for-machine-predictions">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#back-to-bioinformatics">
+   Back to bioinformatics !
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#bag-of-words-representation">
+   Bag of words representation
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id3">
+   Bag of words representation
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-parse-out-the-annotations">
+   Let’s parse out the annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-one-hot-encode-the-annotations">
+   Let’s one-hot encode the annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-4-tensors-hot-spektral">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#an-example-with-simplistic-protein-annotations">
+   An example with simplistic protein annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#our-tensor-building-algorithm">
+   Our tensor building “algorithm”
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-see-it-once-again">
+   Let see it once again
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#and-now-onwards-to-first-building-the-index-for-the-words">
+   And now onwards to first building the index for the words
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#now-onto-building-the-tensor-from-the-annotations-and-the-index">
+   Now onto building the tensor from the annotations and the index
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#what-has-been-achieved-and-some-notes">
+   What has been achieved and some notes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#next-the-tip-of-the-tip-of-the-iceberg-for-graph-convolutional-networks">
+   Next: the tip of the tip of the iceberg, for Graph Convolutional Networks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#matrix-algebra-refresher">
+   Matrix Algebra refresher
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#tensor-operations-with-numpy-array">
+   Tensor operations with numpy.array
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-graph-with-the-compressed-annotations-as-node-attributes">
+   A graph with the compressed annotations as node attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#update-node-attributes-based-on-neighboors">
+   Update node attributes based on neighboors
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#adding-self-loops">
+   Adding self-loops
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-summary-and-where-we-are-going-next">
+   A summary and where we are going next
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-5-tensors-hot-spektral2">
+   One-hot encoding of protein annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#and-now-onwards-to-first-building-the-index-for-the-words">
+   And now onwards to first building the index for the words
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#graph-convolutional-networks">
+   Graph Convolutional Networks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#tensor-operations-with-numpy-array">
+   Tensor operations with numpy.array
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-graph-with-the-compressed-annotations-as-node-attributes">
+   A graph with the compressed annotations as node attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#update-node-attributes-based-on-neighboors">
+   Update node attributes based on neighboors
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#adding-self-loops">
+   Adding self-loops
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#normalizing-for-the-number-of-edges-per-node">
+   Normalizing for the number of edges per node
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-step-back-to-consider-our-algorithmic-approach">
+   A step back to consider our algorithmic approach
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -207,6 +473,354 @@
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-1-graphs-intro">
+   Graph Theory and Network analysis in Bioinformatics
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#what-is-a-graph">
+   What is a Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#an-example-of-a-biological-graph">
+   An example of a biological graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#protein-protein-interaction-ppi-network-graphs">
+   Protein-protein interaction (PPI) network graphs
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-create-a-graph-in-python">
+   Let’s create a graph in Python
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#we-only-have-nodes-vertices-1-2-3-let-s-connect-them-with-edges">
+   We only have nodes (vertices) 1,2,3 let’s connect them with edges
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-us-add-nodes-with-attributes">
+   Let us add nodes with attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#graphs-for-complex-bioinformatics-data">
+   Graphs for complex bioinformatics data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#data-structures-for-graphs-data">
+   Data structures for graphs data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-see-this-in-python-code">
+   Let’s see this in Python code
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id3">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id4">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-2-graphs-parsing">
+   Graph theory and machine learning for bioinformatics continued
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#example-biological-graph-data-sources-for-bioinformatics-research">
+   Example biological Graph data sources for bioinformatics research
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#biological-graph-data-formats">
+   Biological Graph data formats
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#psi-mi-tab-in-terminal">
+   PSI-MI TAB in terminal
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#psi-mi-tab-in-excel">
+   PSI-MI TAB in Excel
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#parsing-psi-mi-tab-and-creating-a-graph-with-networkx">
+   Parsing PSI-MI TAB and creating a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#some-more-google-collab-tricks">
+   Some more Google Collab tricks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#draw-the-graphs">
+   Draw the graphs
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#example-networks-with-the-different-tsv-files">
+   Example networks with the different .tsv files
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#connectivity-of-the-graph-nodes">
+   Connectivity of the Graph nodes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+   Connectivity of the Graph nodes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#some-more-connectivity-metrics">
+   Some more connectivity metrics
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#paths-on-the-graph">
+   Paths on the Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#algorithmic-formal-paths-on-the-graph">
+   Algorithmic / formal paths on the Graph
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#algorithmic-paths-on-networkx">
+   Algorithmic paths on networkx
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#bonus-adjacency-matrices-and-easy-loading-from-files">
+   Bonus: adjacency matrices and easy loading from files
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#the-documentation-of-functions-and-algorithms-of-networkx">
+   The documentation of functions and algorithms of networkx
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-3-graphs-ml-intro">
+   Graphs and and machine learning for protein function prediction
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#prepare-file-with-network-data">
+   Prepare file with network data
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#python-list-slicing-and-lambda-functions">
+   Python list slicing and lambda functions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-parse-out-the-file-and-make-a-graph-with-networkx">
+   Let’s parse out the file and make a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id1">
+   Let’s parse out the file and make a Graph with NetworkX
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-smaller-graph-to-visualize-easier">
+   A smaller graph to visualize easier
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#more-dimensions-in-the-node-data-for-machine-predictions">
+   More dimensions in the node data for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#how-do-we-code-human-writen-text-for-machine-predictions">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id2">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#back-to-bioinformatics">
+   Back to bioinformatics !
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#bag-of-words-representation">
+   Bag of words representation
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#id3">
+   Bag of words representation
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-parse-out-the-annotations">
+   Let’s parse out the annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-s-one-hot-encode-the-annotations">
+   Let’s one-hot encode the annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-4-tensors-hot-spektral">
+   How do we code human writen text for machine predictions
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#an-example-with-simplistic-protein-annotations">
+   An example with simplistic protein annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#our-tensor-building-algorithm">
+   Our tensor building “algorithm”
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#let-see-it-once-again">
+   Let see it once again
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#and-now-onwards-to-first-building-the-index-for-the-words">
+   And now onwards to first building the index for the words
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#now-onto-building-the-tensor-from-the-annotations-and-the-index">
+   Now onto building the tensor from the annotations and the index
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#what-has-been-achieved-and-some-notes">
+   What has been achieved and some notes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#next-the-tip-of-the-tip-of-the-iceberg-for-graph-convolutional-networks">
+   Next: the tip of the tip of the iceberg, for Graph Convolutional Networks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#matrix-algebra-refresher">
+   Matrix Algebra refresher
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#tensor-operations-with-numpy-array">
+   Tensor operations with numpy.array
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-graph-with-the-compressed-annotations-as-node-attributes">
+   A graph with the compressed annotations as node attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#update-node-attributes-based-on-neighboors">
+   Update node attributes based on neighboors
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#adding-self-loops">
+   Adding self-loops
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-summary-and-where-we-are-going-next">
+   A summary and where we are going next
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#document-5-tensors-hot-spektral2">
+   One-hot encoding of protein annotations
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#and-now-onwards-to-first-building-the-index-for-the-words">
+   And now onwards to first building the index for the words
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#graph-convolutional-networks">
+   Graph Convolutional Networks
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#tensor-operations-with-numpy-array">
+   Tensor operations with numpy.array
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-graph-with-the-compressed-annotations-as-node-attributes">
+   A graph with the compressed annotations as node attributes
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#update-node-attributes-based-on-neighboors">
+   Update node attributes based on neighboors
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#adding-self-loops">
+   Adding self-loops
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#normalizing-for-the-number-of-edges-per-node">
+   Normalizing for the number of edges per node
+  </a>
+ </li>
+ <li class="toctree-l1 toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="intro.html#a-step-back-to-consider-our-algorithmic-approach">
+   A step back to consider our algorithmic approach
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -224,6 +838,1033 @@
 License: Creative Commons Attribution-NonCommercial-NoDerivs<br><br>
 <a class="reference external" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a> <img alt="" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" /></p>
 <div class="toctree-wrapper compound">
+<span id="document-1-graphs-intro"></span><div class="section" id="graph-theory-and-network-analysis-in-bioinformatics">
+<h2>Graph Theory and Network analysis in Bioinformatics<a class="headerlink" href="#graph-theory-and-network-analysis-in-bioinformatics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>In this lecture we will discuss basic Graph and Network Theory concepts and data structures</p></li>
+<li><p>Graphs or otherwise networks are one of the most common ways to represent bioinformatics data</p>
+<ul>
+<li><p>Interaction between genes and proteins (genetic regulation) can be represented as graphs</p></li>
+<li><p>Protein structures can also be respensented as graphs denoting the chemical connections between atoms</p></li>
+<li><p>Beyond molecular biology, interacting species for example can be represented as graphs in ecology</p></li>
+</ul>
+</li>
+</ul>
+<p>Some of the information we cover today can also be found in this <a class="reference external" href="https://en.wikipedia.org/wiki/Biological_network">wiki article</a>
+and this <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/network-analysis-in-biology/">online course</a></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="what-is-a-graph">
+<h2>What is a Graph<a class="headerlink" href="#what-is-a-graph" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A mathematical structure capturing binary relationships between objects called <em>nodes</em> or <em>vertices</em></p></li>
+<li><p>The binary relationships are represented by links or <em>edges</em> between the <em>vertices</em></p></li>
+<li><p>The <em>edges</em> can be of a specific type : <em>directed or undirected, weighted or not</em></p></li>
+<li><p>Both <em>nodes</em> and <em>edges</em> can have attributes attached to them</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="an-example-of-a-biological-graph">
+<h2>An example of a biological graph<a class="headerlink" href="#an-example-of-a-biological-graph" title="Permalink to this headline">¶</a></h2>
+<p>(credit <a class="reference external" href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0004906">Hennah, Porteus</a> CC BY 2.5 Licence)</p>
+<p><img alt="width:800px" src="https://upload.wikimedia.org/wikipedia/commons/7/72/Network_of_how_100_of_the_528_genes_identified_with_significant_differential_expression_relate_to_DISC1_and_its_core_interactors.png" /></p>
+<p>The different shapes of the nodes represent different attributes, the edges here are unweighted</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="protein-protein-interaction-ppi-network-graphs">
+<h2>Protein-protein interaction (PPI) network graphs<a class="headerlink" href="#protein-protein-interaction-ppi-network-graphs" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Protein-protein interaction networks (PINs) represent the physical relationship among proteins present in a cell</p></li>
+<li><p>Proteins are nodes, and their interactions are undirected edges</p></li>
+<li><p>Protein–protein interactions are essential to the cellular processes and well studied networks in biology</p></li>
+<li><p>Proteins with high degrees of connectedness (nodes with many links) are more likely to be essential for survival of the cell</p></li>
+<li><p>Source of this information and additional reading at this <a class="reference external" href="https://en.wikipedia.org/wiki/Biological_network">wiki article</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-create-a-graph-in-python">
+<h2>Let’s create a graph in Python<a class="headerlink" href="#let-s-create-a-graph-in-python" title="Permalink to this headline">¶</a></h2>
+<p><em>On Google Collab, run first “!pip install matplotlib”  and “!pip install networkx” (without the quotes)</em></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>We will use a Python library called <a class="reference external" href="https://networkx.org/documentation/stable/tutorial.html">NetworkX</a></p></li>
+<li><p>First we create an <em>undirected</em> graph, meaning it does not matter which direction we travel along the edges</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="we-only-have-nodes-vertices-1-2-3-let-s-connect-them-with-edges">
+<h2>We only have nodes (vertices) 1,2,3 let’s connect them with edges<a class="headerlink" href="#we-only-have-nodes-vertices-1-2-3-let-s-connect-them-with-edges" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">,</span><span class="n">weight</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">e</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">#another way to add an edge</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="o">*</span><span class="n">e</span><span class="p">)</span>  
+
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span> <span class="c1">#add two more vertices</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)])</span> <span class="c1">#add edges differently</span>
+
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span> <span class="c1">#labels used are node numbers </span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-us-add-nodes-with-attributes">
+<h2>Let us add nodes with attributes<a class="headerlink" href="#let-us-add-nodes-with-attributes" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">molecule</span><span class="o">=</span><span class="s2">&quot;protein&quot;</span><span class="p">)</span> <span class="c1">#now we also have vertex attribute</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">],</span> <span class="n">molecule</span><span class="o">=</span><span class="s2">&quot;rna&quot;</span><span class="p">)</span> <span class="c1">#add a bunch of RNA vertices</span>
+<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;molecule&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;protein&quot;</span>  <span class="c1">#modify attributes of existing vertex</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">),(</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">),(</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">),(</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">)])</span><span class="c1">#connect these to the graph</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;molecule&#39;</span><span class="p">)</span> <span class="c1">#using custom labels for nodes</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span> 
+
+</pre></div>
+</div>
+<hr class="docutils" />
+<p><strong>Refer to these links for the graph coding examples and exercises</strong></p>
+<p>Full documentation in NetworkX <a class="reference external" href="https://networkx.org/documentation/stable/tutorial.html">tutorial</a>
+and <a class="reference external" href="https://networkx.org/documentation/stable/reference/classes/index.html">NetworkX reference</a></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="graphs-for-complex-bioinformatics-data">
+<h2>Graphs for complex bioinformatics data<a class="headerlink" href="#graphs-for-complex-bioinformatics-data" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-3.png" />
+(credit <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/">European Bioinformatics Institute</a> CC BY 2.5 Licence)</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="data-structures-for-graphs-data">
+<h2>Data structures for graphs data<a class="headerlink" href="#data-structures-for-graphs-data" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-4.png" />
+(credit <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/">European Bioinformatics Institute</a> CC BY 2.5 Licence)</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-see-this-in-python-code">
+<h2>Let’s see this in Python code<a class="headerlink" href="#let-s-see-this-in-python-code" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Directed graphs represent directed control, for example biological regulation data</p></li>
+<li><p>For example Gene A, regulates Gene B</p></li>
+<li><p>Or Protein A controls gene expression of Gene C</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="n">G1</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span> <span class="c1">#now we have a directed graph</span>
+<span class="n">G1</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)])</span> <span class="c1">#this adds nodes and edges </span>
+<span class="n">G1</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;GeneA&quot;</span>
+<span class="n">G1</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;GeneB&quot;</span>
+<span class="n">G1</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ProteinA&quot;</span>
+<span class="n">G1</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="s2">&quot;name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;GeneC&quot;</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G1</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">)</span> <span class="c1">#using custom labels for nodes nx.draw(G1, labels=labels, font_weight=&#39;bold&#39;) </span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-5.png" /><br>
+(credit <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/">European Bioinformatics Institute</a> CC BY 2.5 Licence)</p>
+<ul class="simple">
+<li><p>The degree is the number of edges that connect to a node</p></li>
+<li><p>The degree of each node is indicated and reflected in its size and colour</p></li>
+<li><p>Directed network nodes have two values : out-degree and in-degree</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id2">
+<h2><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-6.png" /><br>
+(credit <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/">European Bioinformatics Institute</a> CC BY 2.5 Licence)</p>
+<ul class="simple">
+<li><p>Paths between nodes : how many nodes “hops” or steps</p></li>
+<li><p>Is used to model how information flows</p></li>
+<li><p>Also to model how distant protein / genes control others</p></li>
+<li><p>Algorithms to calculate shortest paths on the graph</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h2><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/wp-content/uploads/sites/64/2020/08/new-fig-7.png" /><br>
+(credit <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/">European Bioinformatics Institute</a> CC BY 2.5 Licence)</p>
+<ul class="simple">
+<li><p>Scale-free networks are those which have high connectivity hubs</p></li>
+<li><p>This means (sometimes equally) short paths from one section of the network to the other</p></li>
+<li><p>Additional concepts of centrality and transitivity, see <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-network-topology/">here</a> for more details</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id4">
+<h2><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p><strong>Author: Konstantinos Krampis, 2021</strong><br><br>
+License: Creative Commons Attribution-NonCommercial-NoDerivs<br><br>
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a> <img alt="" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png" /></p>
+</div>
+<span id="document-2-graphs-parsing"></span><div class="section" id="graph-theory-and-machine-learning-for-bioinformatics-continued">
+<h2>Graph theory and machine learning for bioinformatics continued<a class="headerlink" href="#graph-theory-and-machine-learning-for-bioinformatics-continued" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We used a Python library called <a class="reference external" href="https://networkx.org/documentation/stable/tutorial.html">NetworkX</a></p></li>
+<li><p>Examined different types of graphs, directed, undirected, weighted etc.</p></li>
+<li><p>Easy with sample data and few nodes, we will now learn to parse real datasets</p></li>
+<li><p>We will also warm up with Python so we can move to more advanced coding subsequently</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="example-biological-graph-data-sources-for-bioinformatics-research">
+<h2>Example biological Graph data sources for bioinformatics research<a class="headerlink" href="#example-biological-graph-data-sources-for-bioinformatics-research" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Biological General Repository for Interaction Datasets : <a class="reference external" href="https://thebiogrid.org/">BioGrid</a></p></li>
+<li><p>European Bioinformatics Institute : <a class="reference external" href="https://www.ebi.ac.uk/intact/home">IntAct</a></p></li>
+<li><p>Stanford Biomedical Network Dataset Collection : <a class="reference external" href="http://snap.stanford.edu/biodata/index.html">SNAP</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="biological-graph-data-formats">
+<h2>Biological Graph data formats<a class="headerlink" href="#biological-graph-data-formats" title="Permalink to this headline">¶</a></h2>
+<p>A range of available formats from <a class="reference external" href="https://wiki.thebiogrid.org/doku.php/downloads">BioGrid</a>
+The official specification of <a class="reference external" href="https://psicquic.github.io/MITAB27Format.html">PSI-MI TAB</a></p>
+<ul class="simple">
+<li><p>Most intuitive is to use tab-delimited formats such as PSI-MI TAB</p></li>
+<li><p>We prefer the latest version of PSI-MI TAB (or at least &gt;2.6)</p></li>
+<li><p>We can get the node annotations without additonal database referrals</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="psi-mi-tab-in-terminal">
+<h2>PSI-MI TAB in terminal<a class="headerlink" href="#psi-mi-tab-in-terminal" title="Permalink to this headline">¶</a></h2>
+<p><img alt="PSI-MI TAB 2.7 in terminal" src="https://i.ibb.co/WxywbSz/Screenshot-2022-02-07-7-47-42-PM.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="psi-mi-tab-in-excel">
+<h2>PSI-MI TAB in Excel<a class="headerlink" href="#psi-mi-tab-in-excel" title="Permalink to this headline">¶</a></h2>
+<p><img alt="PSI-MI TAB 2.7 in Excel" src="https://i.ibb.co/D4jHKts/Screenshot-2022-02-07-8-31-41-PM.png" />
+<a class="reference external" href="https://easyupload.io/xnrb66">.tsv file 1 parse with Python in Collab</a>
+<a class="reference external" href="https://easyupload.io/nfycv0">.tsv file 2 parse with Python in Collab</a>
+<a class="reference external" href="https://easyupload.io/rs5b9m">.tsv file 3 parse with Python in Collab</a></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="parsing-psi-mi-tab-and-creating-a-graph-with-networkx">
+<h2>Parsing PSI-MI TAB and creating a Graph with NetworkX<a class="headerlink" href="#parsing-psi-mi-tab-and-creating-a-graph-with-networkx" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We will be using this <a class="reference external" href="https://colab.research.google.com/drive/1CQkYrIfRJFMRWmMR9MZ5W-yBj0QhxAMx?usp=sharing">Collab Python notebook</a></p></li>
+<li><p>“File-&gt;Save Copy” the notebook under your Google account to edit or execute</p></li>
+<li><p>Remember the upload and copy path buttons to use .tsv from within Collab <img alt="" src="https://i.ibb.co/d0nHpLG/colab-download.png" /></p></li>
+<li><p>And also see this <a class="reference external" href="https://www.youtube.com/watch?v=6HFlwqK3oeo">video</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="some-more-google-collab-tricks">
+<h2>Some more Google Collab tricks<a class="headerlink" href="#some-more-google-collab-tricks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You can actually execute Unix commands, again see <a class="reference external" href="https://colab.research.google.com/drive/1CQkYrIfRJFMRWmMR9MZ5W-yBj0QhxAMx?usp=sharing">Collab Python notebook</a></p></li>
+<li><p>Also refer to the <a class="reference external" href="https://psicquic.github.io/MITAB27Format.html">PSI-MI TAB fields</a></p></li>
+<li><p>How many edges we have in total - can we tell before even using NetworkX ?</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+!cut -f 1-2,17-18 /content/18467557.tsv | head -n 4
+
+!cut -f 1-2,17-18 /content/18467557.tsv | sed -e &#39;s/uniprotkb\://g&#39; &gt; /content/network.tsv
+
+!wc -l network.tsv
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Let’s parse out the file and make a Graph with NetworkX</p></li>
+<li><p>We open the file for reading each line ‘for line in f’</p></li>
+<li><p>The Python operations within the ‘[]’ will generate a list with the results</p></li>
+<li><p>We split each line based on tabs (‘\t’) in a temporary array (the nested ‘[:2]’)</p></li>
+<li><p>From that nested array we get the first two elements 0,1 ([:2] the 2 not inclusive) and store in ‘pairset’ array</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/network.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+
+  <span class="n">pairset</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[:</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]</span>
+
+<span class="n">pairset</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="draw-the-graphs">
+<h2>Draw the graphs<a class="headerlink" href="#draw-the-graphs" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Again do not forget the <strong>‘import network as nx’</strong> etc. statements as needed in the beginning of your Collab code</p></li>
+<li><p>Remember the G.add_edges_from([(3, 4), (3, 5)]) to add edges and nodes simultaneously</p></li>
+<li><p>Why ‘pairset[1:]’ ? See also <a class="reference external" href="https://colab.research.google.com/drive/1CQkYrIfRJFMRWmMR9MZ5W-yBj0QhxAMx?usp=sharing">Collab Python notebook</a></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+G = nx.Graph()
+G.add_edges_from(pairset[1:])
+nx.draw(G, with_labels=True)
+rkx.algorithms.tournament.hamiltonian_path¶
+
+
+nodes = list(G.nodes)
+print(nodes[0:10])
+
+</pre></div>
+</div>
+<p><img alt="" src="https://i.ibb.co/BtRHw5D/Screenshot-2022-02-08-3-07-57-PM.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="example-networks-with-the-different-tsv-files">
+<h2>Example networks with the different .tsv files<a class="headerlink" href="#example-networks-with-the-different-tsv-files" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/YRfxRkL/download-1.png" />
+<img alt="" src="https://i.ibb.co/NjBLx1m/download.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="connectivity-of-the-graph-nodes">
+<h2>Connectivity of the Graph nodes<a class="headerlink" href="#connectivity-of-the-graph-nodes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Number of edges per node, a  histogram in descending order</p></li>
+<li><p>Note the special import of functions from networkx</p></li>
+<li><p>No information for which node has the highest number of connections</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">networkx.classes.function</span> <span class="kn">import</span> <span class="n">info</span><span class="p">,</span> <span class="n">degree_histogram</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">info</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
+
+<span class="n">deghist</span> <span class="o">=</span> <span class="n">degree_histogram</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="n">deghist</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">deghist</span><span class="p">)</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id2">
+<h2>Connectivity of the Graph nodes<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This a normalized metric on how well connected a node is, <a class="reference external" href="https://towardsdatascience.com/graph-analytics-introduction-and-concepts-of-centrality-8f5543b55de3">read definition here</a></p></li>
+<li><p>Here we see which node the number the node corresponds to, using dictionary key-value pairs</p></li>
+<li><p>Notice the Python code for sorting the dictionary on its values</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">from</span> <span class="nn">networkx.algorithms.centrality</span> <span class="kn">import</span> <span class="n">degree_centrality</span>
+
+<span class="n">deg</span> <span class="o">=</span> <span class="n">degree_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">deg</span><span class="p">)</span>
+
+<span class="n">sorted_deg</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span> <span class="p">(</span> <span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span> <span class="k">for</span> <span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="n">value</span><span class="p">)</span> <span class="ow">in</span> <span class="n">deg</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="p">),</span><span class="n">key</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sorted_deg</span><span class="p">)</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="some-more-connectivity-metrics">
+<h2>Some more connectivity metrics<a class="headerlink" href="#some-more-connectivity-metrics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This returns a dictionary with the first node id as key, and dictionaries as values</p></li>
+<li><p>Each value dictionary, contains key-values with second node id and number of deletions for disconnect</p></li>
+<li><p><a class="reference external" href="https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.connectivity.connectivity.all_pairs_node_connectivity.html">See defintion and all algorithms here</a></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">networkx.algorithms.approximation.connectivity</span> <span class="kn">import</span> <span class="n">all_pairs_node_connectivity</span>
+
+<span class="n">allpaircon</span> <span class="o">=</span> <span class="n">all_pairs_node_connectivity</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">allpaircon</span><span class="p">)</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="paths-on-the-graph">
+<h2>Paths on the Graph<a class="headerlink" href="#paths-on-the-graph" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Path from one node to other, and cyclic paths formed between nodes</p></li>
+<li><p>Note the ‘casting’ as list, because these methods return a ‘generator’</p></li>
+<li><p>Saves memory and instantiated as list when requested as in code below</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">from</span> <span class="nn">networkx.algorithms.simple_paths</span> <span class="kn">import</span> <span class="n">all_simple_paths</span>
+<span class="kn">from</span> <span class="nn">networkx.algorithms.cycles</span> <span class="kn">import</span> <span class="n">cycle_basis</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">all_simple_paths</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;Q99836&#39;</span><span class="p">,</span> <span class="s1">&#39;Q9UGK3&#39;</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">cycle_basis</span><span class="p">(</span><span class="n">G</span><span class="p">)))</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="algorithmic-formal-paths-on-the-graph">
+<h2>Algorithmic / formal paths on the Graph<a class="headerlink" href="#algorithmic-formal-paths-on-the-graph" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Hamiltonian_path">Hamiltonian path</a> visit each node exactly one time</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Eulerian_path">Eulerian path</a> visit each edge only once (you can revisit nodes)</p></li>
+</ul>
+<p><img alt="height:12cm" src="https://i.ytimg.com/vi/CEOGcSCTar8/maxresdefault.jpg" /></p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=CEOGcSCTar8">image credit and more information</a></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="algorithmic-paths-on-networkx">
+<h2>Algorithmic paths on networkx<a class="headerlink" href="#algorithmic-paths-on-networkx" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Details in networkx documentation <a class="reference external" href="https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.tournament.hamiltonian_path.html">here</a></p></li>
+<li><p><a class="reference external" href="https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.euler.is_eulerian.html">and here</a></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">networkx.algorithms.tournament</span> <span class="kn">import</span> <span class="n">hamiltonian_path</span>
+<span class="kn">from</span> <span class="nn">networkx.algorithms.euler</span> <span class="kn">import</span> <span class="n">is_eulerian</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">is_eulerian</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
+<span class="n">hamiltonian_path</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">to_directed</span><span class="p">())</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="bonus-adjacency-matrices-and-easy-loading-from-files">
+<h2>Bonus: adjacency matrices and easy loading from files<a class="headerlink" href="#bonus-adjacency-matrices-and-easy-loading-from-files" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Print adjacency matrix of the graph</p></li>
+<li><p>Read graph automatically from a two-column file</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+from networkx.linalg.graphmatrix import adjacency_matrix
+adjacency_matrix(G).toarray()
+
+from networkx.readwrite.adjlist import read_adjlist
+!cut -f 1-2 /content/16365431.tsv &gt; /content/network.tsv
+G = read_adjlist(&#39;/content/network.tsv&#39;)
+nx.draw(G, with_labels=True)
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="the-documentation-of-functions-and-algorithms-of-networkx">
+<h2>The documentation of functions and algorithms of networkx<a class="headerlink" href="#the-documentation-of-functions-and-algorithms-of-networkx" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://networkx.org/documentation/stable/reference/functions.html">Functions</a></p></li>
+<li><p><a class="reference external" href="https://networkx.org/documentation/stable/reference/algorithms/index.html">Algorithms</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+<span id="document-3-graphs-ml-intro"></span><div class="section" id="graphs-and-and-machine-learning-for-protein-function-prediction">
+<h2>Graphs and and machine learning for protein function prediction<a class="headerlink" href="#graphs-and-and-machine-learning-for-protein-function-prediction" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Building the graph instance from the experimental data (i.e. PPI network if protein interactions)</p></li>
+<li><p>Loading the graph entities (nodes mainly) with multidimensional data in order to enable predictions</p></li>
+<li><p>Running machine learning algorithms on the graph for protein function inference on the unknown nodes</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="prepare-file-with-network-data">
+<h2>Prepare file with network data<a class="headerlink" href="#prepare-file-with-network-data" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+!wc -l 15761153-cut.tsv
+!cut -f 1-2,17-22 ./content/15761153.txt | head -n 2
+!cut -f 1-2,19-20./content/15761153.txt &gt; ./content/15761153-cut.tsv
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="python-list-slicing-and-lambda-functions">
+<h2>Python list slicing and lambda functions<a class="headerlink" href="#python-list-slicing-and-lambda-functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Multiple tutorials can found online on these topics, example links are given here</p></li>
+<li><p>On lambdas, see <a class="reference external" href="https://cs.stanford.edu/people/nick/py/python-map-lambda.html">here</a> and <a class="reference external" href="https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/">here</a></p></li>
+<li><p>For list slicing see <a class="reference external" href="https://www.geeksforgeeks.org/python-list-slicing/">here</a> and <a class="reference external" href="https://stackoverflow.com/questions/509211/understanding-slice-notation">here</a></p></li>
+<li><p>Read material on links above !</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-parse-out-the-file-and-make-a-graph-with-networkx">
+<h2>Let’s parse out the file and make a Graph with NetworkX<a class="headerlink" href="#let-s-parse-out-the-file-and-make-a-graph-with-networkx" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+  <span class="n">graphdata</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">graphdata</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
+
+<span class="n">graphdataclean</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graphdata</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+  <span class="n">graphdataclean</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">element</span><span class="p">:</span> <span class="n">element</span><span class="p">[</span><span class="mi">10</span><span class="p">:],</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]))</span> \
+                      <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">element</span><span class="p">:</span> <span class="n">element</span><span class="p">[</span><span class="mi">17</span><span class="p">:</span><span class="mi">21</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">:])))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">graphdataclean</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2>Let’s parse out the file and make a Graph with NetworkX<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="n">nodes</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graphdataclean</span><span class="p">:</span>
+	<span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],{</span><span class="s1">&#39;type&#39;</span> <span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">]})</span> <span class="p">)</span>
+	<span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],{</span><span class="s1">&#39;type&#39;</span> <span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">]})</span> <span class="p">)</span>
+
+<span class="n">edges</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graphdataclean</span><span class="p">:</span>
+	<span class="n">edges</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>First we will make a list / dictionary with the node attributes (the prey-bait)</p></li>
+<li><p>Then an array with the edges. Refer to Networkx <a class="reference external" href="https://networkx.org/documentation/stable/tutorial.html">documentation</a> for <a class="reference external" href="https://i.ibb.co/0C0XZ48/Screenshot-2022-02-14-9-44-36-PM.png">example</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="a-smaller-graph-to-visualize-easier">
+<h2>A smaller graph to visualize easier<a class="headerlink" href="#a-smaller-graph-to-visualize-easier" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Possibly some artefacts of nodes missing labels due to the slicing below</p></li>
+<li><p>Open question : how does “prey-bait” node connections in graph correspond to experimental design</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="n">nodesub</span> <span class="o">=</span> <span class="n">nodes</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">50</span><span class="p">]</span>
+<span class="n">edgesub</span> <span class="o">=</span> <span class="n">edges</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">50</span><span class="p">]</span>
+
+<span class="n">subG</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="n">subG</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">nodesub</span><span class="p">)</span>
+<span class="n">subG</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edgesub</span><span class="p">)</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">subG</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx</span><span class="p">(</span><span class="n">subG</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="more-dimensions-in-the-node-data-for-machine-predictions">
+<h2>More dimensions in the node data for machine predictions<a class="headerlink" href="#more-dimensions-in-the-node-data-for-machine-predictions" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/vLbRWPj/Screenshot-2022-02-15-7-17-28-PM.png" /></p>
+<ul class="simple">
+<li><p>Each node has a single parameter (a single dimension) of data associated with it (prey or bait)</p></li>
+<li><p>The more data, the better for machine learning predictions of unknown nodes</p></li>
+<li><p>The annotations field has complex function description entered by bioinformatics analysts / curators</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="how-do-we-code-human-writen-text-for-machine-predictions">
+<h2>How do we code human writen text for machine predictions<a class="headerlink" href="#how-do-we-code-human-writen-text-for-machine-predictions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We need to codify the text as <a class="reference external" href="https://medium.com/analytics-vidhya/one-hot-encoding-of-text-data-in-natural-language-processing-2242fefb2148">one-hot encoded (1’s and 0’s) vectors</a></p></li>
+</ul>
+<p><img alt="" src="https://i.ibb.co/pyG53Dd/Screenshot-2022-02-15-7-36-26-PM.png" /></p>
+<ul class="simple">
+<li><p>In the example above there are 7-dimensional vectors, each word in the node annotations represents a separate dimension</p></li>
+<li><p>Annotations can have hundreds or thousands of dimensions, one for each word</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id2">
+<h2>How do we code human writen text for machine predictions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Capturing in the vectors the context (surrounding) of each word for defining meaning precisely</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Languange Processing</a> (NLP) for human language data mining</p></li>
+<li><p>For example: <strong>“We went to the river bank”</strong></p></li>
+<li><p><strong>“We made a deposit at the bank”</strong></p></li>
+<li><p>Difference in meaning of word “bank” needs to be modeled in data for machine learning / AI applications</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="back-to-bioinformatics">
+<h2>Back to bioinformatics !<a class="headerlink" href="#back-to-bioinformatics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Our focus is how to add the rich annotation data on each node on our graphs</p></li>
+<li><p>Add in a vectorized, one-hot encoded format data on each node, not focus on NLP</p></li>
+<li><p>We will use algorithms and Python libraries such as <a class="reference external" href="https://towardsdatascience.com/a-word2vec-implementation-using-numpy-and-python-d256cf0e5f28">Word2vec</a> also <a class="reference external" href="https://stackabuse.com/implementing-word2vec-with-gensim-library-in-python/">here</a> and <a class="reference external" href="https://www.machinelearningplus.com/nlp/gensim-tutorial/">Gensim</a> from NLP</p></li>
+<li><p>Once the graph is in place and one-hot encoded data on the nodes, we will run machine learning algorithms on it</p></li>
+<li><p>Please read carefully the content from the links above !</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="bag-of-words-representation">
+<h2>Bag of words representation<a class="headerlink" href="#bag-of-words-representation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Create a dictionary - the set of unique words - from the sentences (or the “corpus”)</p></li>
+<li><p>Parse the sentences and create a one-hot encoded vector from each sentence:</p></li>
+</ul>
+<p><img alt="" src="https://miro.medium.com/max/1400/1*hLvya7MXjsSc3NS2SoLMEg.png" />
+<a class="reference external" href="https://www.ronaldjamesgroup.com/blog/grab-your-wine-its-time-to-demystify-ml-and-nlp">Image credit</a></p>
+<ul class="simple">
+<li><p>Easy to implement, but a lot of wasted space, context not differentiated (“bank deposit” vs “river bank”)</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h2>Bag of words representation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>W</p>
+<ul class="simple">
+<li><p>Create a dictionary - the set of unique word counts - from the annotations (or the “corpus”)</p></li>
+<li><p>Then  create a one-hot encoded group of vectors - multidimensional matrix (or tensor) attached to each node</p></li>
+<li><p>First lets have our files with protein ids and annotations as accompanying data</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!cut -f 1-2,26-27 ./content/15761153.txt | head -n 2
+!cut -f 1-2,26-27 ./content/15761153.txt &gt; ./content/15761153-cut.tsv
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-parse-out-the-annotations">
+<h2>Let’s parse out the annotations<a class="headerlink" href="#let-s-parse-out-the-annotations" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/bioitx/Author/private-bioitx-AI/BioinformAI/content/15761153-cut.tsv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+  <span class="n">graphdata</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]</span>
+
+<span class="n">graphdataclean</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graphdata</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+  <span class="n">graphdataclean</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">element</span><span class="p">:</span> <span class="n">element</span><span class="p">[</span><span class="mi">10</span><span class="p">:],</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]))</span> \
+                      <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">element</span><span class="p">:</span> <span class="n">element</span><span class="p">[</span><span class="mi">22</span><span class="p">:],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">:])))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">graphdataclean</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-one-hot-encode-the-annotations">
+<h2>Let’s one-hot encode the annotations<a class="headerlink" href="#let-s-one-hot-encode-the-annotations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Do not forget to run “!pip install gensim”</p></li>
+<li><p>We will follow examples from <a class="reference external" href="https://www.machinelearningplus.com/nlp/gensim-tutorial/">this tutorial</a></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">import</span> <span class="nn">gensim</span>
+<span class="kn">from</span> <span class="nn">gensim</span> <span class="kn">import</span> <span class="n">corpora</span>
+
+<span class="n">corpus</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graphdataclean</span><span class="p">:</span>
+	<span class="n">corpus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+	<span class="n">corpus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+
+  <span class="c1">#print(corpus[0:2])</span>
+
+<span class="n">annotwords</span> <span class="o">=</span> <span class="p">[[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span> <span class="k">for</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="n">corpus</span><span class="p">]</span>
+<span class="n">annotdict</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="p">(</span><span class="n">annotwords</span><span class="p">)</span>
+
+<span class="c1">#print(annotwords[0:2])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="p">[</span><span class="mi">100</span><span class="p">])</span>
+
+</pre></div>
+</div>
+</div>
+<span id="document-4-tensors-hot-spektral"></span><hr class="docutils" />
+<div class="section" id="how-do-we-code-human-writen-text-for-machine-predictions">
+<h2>How do we code human writen text for machine predictions<a class="headerlink" href="#how-do-we-code-human-writen-text-for-machine-predictions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We need to codify the text as <a class="reference external" href="https://medium.com/analytics-vidhya/one-hot-encoding-of-text-data-in-natural-language-processing-2242fefb2148">one-hot encoded (1’s and 0’s) vectors</a></p></li>
+</ul>
+<p><img alt="" src="https://i.ibb.co/pyG53Dd/Screenshot-2022-02-15-7-36-26-PM.png" /></p>
+<ul class="simple">
+<li><p>In the example above there are 7-dimensional vectors, each word in the node annotations represents a separate dimension</p></li>
+<li><p>Annotations can have hundreds or thousands of dimensions, one for each word</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="an-example-with-simplistic-protein-annotations">
+<h2>An example with simplistic protein annotations<a class="headerlink" href="#an-example-with-simplistic-protein-annotations" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/ZSs4NGz/Screenshot-2022-02-19-7-38-54-PM.png" /></p>
+<ul class="simple">
+<li><p>Annotations with 5 words, the dictionary provides index for matching the 1’s with the set of words</p></li>
+<li><p>Tensor: 3-dimensional matrix, (annotation length) x (size of word set) x (number of annotations)</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="our-tensor-building-algorithm">
+<h2>Our tensor building “algorithm”<a class="headerlink" href="#our-tensor-building-algorithm" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>After having our dictionary index in place, go over each annotation sentence</p></li>
+<li><p>Split the sentence in words, and for each word get its position on the index</p></li>
+<li><p>Remember a tensor is a collection of matrices, each matrix correspond to one annotation</p></li>
+<li><p>On each matrix each row designates the position of the word on the index</p></li>
+<li><p>On each matrix we have as many rows as there are words (here our annotations are of same length)</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-see-it-once-again">
+<h2>Let see it once again<a class="headerlink" href="#let-see-it-once-again" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/ZSs4NGz/Screenshot-2022-02-19-7-38-54-PM.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="and-now-onwards-to-first-building-the-index-for-the-words">
+<h2>And now onwards to first building the index for the words<a class="headerlink" href="#and-now-onwards-to-first-building-the-index-for-the-words" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">import</span> <span class="nn">gensim</span>
+<span class="kn">from</span> <span class="nn">gensim</span> <span class="kn">import</span> <span class="n">corpora</span>
+
+<span class="n">annotations</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;This protein phosporylates a gene&#39;</span><span class="p">,</span><span class="s1">&#39;This protein catalyzes a reaction&#39;</span><span class="p">,</span><span class="s1">&#39;This gene controls RNA expression&#39;</span><span class="p">,</span> <span class="s1">&#39;This gene controls a gene&#39;</span><span class="p">]</span>
+
+<span class="n">annotwords</span> <span class="o">=</span> <span class="p">[[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span> <span class="k">for</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="n">annotations</span><span class="p">]</span>
+<span class="n">annotdict</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="p">(</span><span class="n">annotwords</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>The index is created by genesim.corpora geting the “bag of words” (tokens)</p></li>
+<li><p>From the bag of words (if there are replicated words) a unique set is created</p></li>
+<li><p>This dictionary is used as positional reference for the 1’s and 0’s in the tensor</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="now-onto-building-the-tensor-from-the-annotations-and-the-index">
+<h2>Now onto building the tensor from the annotations and the index<a class="headerlink" href="#now-onto-building-the-tensor-from-the-annotations-and-the-index" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">annotensor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">annotations</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">annotations</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)),</span> <span class="nb">max</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>  
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">annotations</span><span class="p">):</span> 
+  <span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">())):</span>
+    
+    <span class="n">index</span> <span class="o">=</span> <span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+    <span class="n">annotensor</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.</span>   
+
+<span class="nb">print</span><span class="p">(</span><span class="n">annotations</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotensor</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>The “enumerate” allows us to have the counter (0,1,2..) and the element we iterate over</p></li>
+<li><p>The “i” is for each matrix in the tensor storing one-hot encoding for a single annotation</p></li>
+<li><p>The “j” are the rows of the matrix (words in annotation) and “index” the columns position on dictionary</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="what-has-been-achieved-and-some-notes">
+<h2>What has been achieved and some notes<a class="headerlink" href="#what-has-been-achieved-and-some-notes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We have encoding the annotations from human language to a standardized machine representation</p></li>
+<li><p>The code we seen can be scaled to any size annotations, and thousands of them</p></li>
+<li><p>Notice that annotations were of equal length, not the case with data we seen before</p></li>
+<li><p>We either need to fix the data, find different data, or work with “ragged” tensors (possibly difficult)</p></li>
+<li><p>We will return to the issue of getting the right data in subsequent sessions</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="next-the-tip-of-the-tip-of-the-iceberg-for-graph-convolutional-networks">
+<h2>Next: the tip of the tip of the iceberg, for Graph Convolutional Networks<a class="headerlink" href="#next-the-tip-of-the-tip-of-the-iceberg-for-graph-convolutional-networks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Graph Convolutional Networks - GCNs, a type of Artificial Neural Networks</p></li>
+<li><p>We will see more Artificial Intelligence and Machine Learning (AI/ML) subsequently</p></li>
+<li><p>Our focus is now to utilize vectorized, one-hot encoded annotation data on each node on our graphs</p></li>
+<li><p>We will run a “toy” machine learning algorithm on the graph (prepare from matrix algebra !)</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="matrix-algebra-refresher">
+<h2>Matrix Algebra refresher<a class="headerlink" href="#matrix-algebra-refresher" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We discussed <a class="reference external" href="https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-adjacency-matrices/">previously how adjacency matrices</a> represent the graph structure</p></li>
+<li><p>Matrix multiplication is row to column, (k,l) x (l,m) = (k,m) inner dimensions must match</p></li>
+<li><p>An alternative multiplication representation can be seen <a class="reference external" href="https://www.geeksforgeeks.org/wp-content/uploads/strassen_new.png">here</a>, multiple tutorials on the web</p></li>
+</ul>
+<p><img alt="width:600" src="https://miro.medium.com/max/1400/1*YGcMQSr0ge_DGn96WnEkZw.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="tensor-operations-with-numpy-array">
+<h2>Tensor operations with numpy.array<a class="headerlink" href="#tensor-operations-with-numpy-array" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">annotensor</span><span class="p">),</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annotensor</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">sliceanot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">annotensor</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">],</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">anotvec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">anot</span><span class="p">,[</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">anot</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">anotvec</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Our annotensor variable is a <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.sum.html">numpy array</a></p></li>
+<li><p>Crash course in numpy array slicing <a class="reference external" href="https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/numpy-arrays/indexing-slicing-numpy-arrays/">here</a> and <a class="reference external" href="https://www.pythoninformer.com/python-libraries/numpy/index-and-slice/">here</a></p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>We created a compressed representation of example annotations and small tensors</p></li>
+<li><p>Full scale annotations and tensors (with 1000’s of entries) in real application</p></li>
+<li><p>We naively represent each node feature (the 1’s and 0’s for the annotation encoding) as single number</p></li>
+<li><p>We will demonstrate matrix operations for Graph Convolutions, following this <a class="reference external" href="https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780">example tutorial</a></p></li>
+<li><p>Eventually we will use <a class="reference external" href="https://graphneural.network/">Spectal</a> with large scale graphs and data</p></li>
+</ul>
+<p><img alt="height:300" src="https://i.ibb.co/H2pq4sC/imgonline-com-ua-twotoone-KPNPbw-UW6-MEi-T.jpg" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="a-graph-with-the-compressed-annotations-as-node-attributes">
+<h2>A graph with the compressed annotations as node attributes<a class="headerlink" href="#a-graph-with-the-compressed-annotations-as-node-attributes" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> 
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]],</span>
+    <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">convert_matrix</span><span class="o">.</span><span class="n">from_numpy_matrix</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">create_using</span><span class="o">=</span><span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+	<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotvec</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Again, please refer to <a class="reference external" href="https://networkx.org/documentation/stable/index.html">NetworkX documentation</a> for the functions we use here</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="update-node-attributes-based-on-neighboors">
+<h2>Update node attributes based on neighboors<a class="headerlink" href="#update-node-attributes-based-on-neighboors" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">anotvec</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anotprop</span> <span class="o">=</span> <span class="n">A</span> <span class="o">*</span> <span class="n">X</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">anotprop</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+	<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotprop</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>This is the basis for the message passing algorithm in Graph Convolutional neural Networks (GCNs)</p></li>
+<li><p>Information propagation based on the structure of the graph, notice that after update we have sum of neighboors</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="adding-self-loops">
+<h2>Adding self-loops<a class="headerlink" href="#adding-self-loops" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">A1</span> <span class="o">=</span> <span class="n">A</span> <span class="o">+</span> <span class="n">I</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A1</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anotvecself</span> <span class="o">=</span> <span class="n">A1</span> <span class="o">*</span> <span class="n">X</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+	<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotvecself</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>With addition of the identity matrix we add self-loops in the graph</p></li>
+<li><p>This allow us to sum up also the self-value of each node</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="a-summary-and-where-we-are-going-next">
+<h2>A summary and where we are going next<a class="headerlink" href="#a-summary-and-where-we-are-going-next" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>We have seen how to one-hot encode natural language annotations</p></li>
+<li><p>Using over-simplified annotation vectors and added them as “features” on nodes of the graph</p></li>
+<li><p>Then with a simple matrix multiplication how to propagate these features along the graph structure</p></li>
+<li><p>A couple more matrix / linear algebra tricks will give us the formula / algorithm below</p></li>
+<li><p>And next will be this algorithm in <a class="reference external" href="https://graphneural.network/layers/convolution/#gcnconv">Spektral</a> where we use the full one-hot vectors and large-scale graphs</p></li>
+</ul>
+<p><img alt="" src="https://i.ibb.co/Qf7DtC2/Screenshot-2022-02-22-10-42-34-PM.png" /></p>
+</div>
+<span id="document-5-tensors-hot-spektral2"></span><div class="section" id="one-hot-encoding-of-protein-annotations">
+<h2>One-hot encoding of protein annotations<a class="headerlink" href="#one-hot-encoding-of-protein-annotations" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/ZSs4NGz/Screenshot-2022-02-19-7-38-54-PM.png" /></p>
+<ul class="simple">
+<li><p>Annotations with 5 words, the dictionary provides index for matching the 1’s with the set of words</p></li>
+<li><p>Tensor: 3-dimensional matrix, (annotation length) x (size of word set) x (number of annotations)</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="and-now-onwards-to-first-building-the-index-for-the-words">
+<h2>And now onwards to first building the index for the words<a class="headerlink" href="#and-now-onwards-to-first-building-the-index-for-the-words" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">gensim</span>
+<span class="kn">from</span> <span class="nn">gensim</span> <span class="kn">import</span> <span class="n">corpora</span>
+
+<span class="n">annotations</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;This protein phosporylates a gene&#39;</span><span class="p">,</span><span class="s1">&#39;This protein catalyzes a reaction&#39;</span><span class="p">,</span> \
+<span class="s1">&#39;This gene controls RNA expression&#39;</span><span class="p">,</span> <span class="s1">&#39;This gene controls a gene&#39;</span><span class="p">]</span>
+
+<span class="n">annotwords</span> <span class="o">=</span> <span class="p">[[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span> <span class="k">for</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="n">annotations</span><span class="p">]</span>
+<span class="n">annotdict</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="p">(</span><span class="n">annotwords</span><span class="p">)</span>
+<span class="n">annotensor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">annotations</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">annotations</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)),</span> <span class="nb">max</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>  
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">annotation</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">annotations</span><span class="p">):</span> 
+  <span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="n">annotation</span><span class="o">.</span><span class="n">split</span><span class="p">())):</span>
+    
+    <span class="n">index</span> <span class="o">=</span> <span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+    <span class="n">annotensor</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.</span>   
+
+<span class="nb">print</span><span class="p">(</span><span class="n">annotwords</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="n">annotdict</span><span class="o">.</span><span class="n">token2id</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="n">annotensor</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="graph-convolutional-networks">
+<h2>Graph Convolutional Networks<a class="headerlink" href="#graph-convolutional-networks" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Graph Convolutional Networks - GCNs, a type of Artificial Neural Networks</p></li>
+<li><p>We will utilize vectorized, one-hot encoded annotation data on each node on our graphs</p></li>
+<li><p>Matrix multiplication is row to column, (k,l) x (l,m) = (k,m) inner dimensions must match
+<img alt="width:600" src="https://miro.medium.com/max/1400/1*YGcMQSr0ge_DGn96WnEkZw.png" /></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="tensor-operations-with-numpy-array">
+<h2>Tensor operations with numpy.array<a class="headerlink" href="#tensor-operations-with-numpy-array" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">sliceanot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">annotensor</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">],</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">sliceanot</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">anotvec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">anot</span><span class="p">,[</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">anotvec</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><img alt="" src="https://i.ibb.co/ZSs4NGz/Screenshot-2022-02-19-7-38-54-PM.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="a-graph-with-the-compressed-annotations-as-node-attributes">
+<h2>A graph with the compressed annotations as node attributes<a class="headerlink" href="#a-graph-with-the-compressed-annotations-as-node-attributes" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> 
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]],</span>
+    <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">convert_matrix</span><span class="o">.</span><span class="n">from_numpy_matrix</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">create_using</span><span class="o">=</span><span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">)</span>
+
+<span class="c1"># I have added on extra node that is not annotated, preventing index error</span>
+<span class="n">anotvec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">anotvec</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">anotvec</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">anotvec</span><span class="p">,[</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+  <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotvec</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+    
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="update-node-attributes-based-on-neighboors">
+<h2>Update node attributes based on neighboors<a class="headerlink" href="#update-node-attributes-based-on-neighboors" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">anotvec</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anotprop</span> <span class="o">=</span> <span class="n">A</span> <span class="o">*</span> <span class="n">X</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">anotprop</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+  <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotprop</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">arrows</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Remember the numbers represent “codified” annotations (although very simplified in our example)</p></li>
+<li><p>Rename vector with the annotation numbers “X” to match tutorial we follow <a class="reference external" href="https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780">here</a> and <a class="reference external" href="https://towardsdatascience.com/understanding-graph-convolutional-networks-for-node-classification-a2bfdb7aba7b">here</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="adding-self-loops">
+<h2>Adding self-loops<a class="headerlink" href="#adding-self-loops" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">A1</span> <span class="o">=</span> <span class="n">A</span> <span class="o">+</span> <span class="n">I</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A1</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">anotvecself</span> <span class="o">=</span> <span class="n">A1</span> <span class="o">*</span> <span class="n">X</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+	<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotvecself</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Add the identity matrix, we add self-loops in the graph, sum up also the annotation value of each node</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="normalizing-for-the-number-of-edges-per-node">
+<h2>Normalizing for the number of edges per node<a class="headerlink" href="#normalizing-for-the-number-of-edges-per-node" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">D</span><span class="p">))</span>
+<span class="n">anotvecscaled</span> <span class="o">=</span> <span class="n">D</span><span class="o">**-</span><span class="mi">1</span> <span class="o">*</span> <span class="n">A1</span> <span class="o">*</span> <span class="n">X</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">D</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;D(5x5) * A1(5x5) * X(5x1) = annotvecscaled(5x1)</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">D</span><span class="o">**-</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="n">A1</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">anotvecscaled</span><span class="p">,</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">:</span>
+	<span class="n">G</span><span class="o">.</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;annotval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">anotvecscaled</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="s1">&#39;ID=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;annotval&#39;</span><span class="p">)</span> 
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_shell</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>D sums the number of edges per node (the 1’s in each column of the adjacency matrix A)</p></li>
+<li><p>Inverse number of edges on diag(D), scales / normalizes annotation number assigned to each node during the matrix multiplication</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="a-step-back-to-consider-our-algorithmic-approach">
+<h2>A step back to consider our algorithmic approach<a class="headerlink" href="#a-step-back-to-consider-our-algorithmic-approach" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="https://i.ibb.co/FKRHNBL/Screenshot-2022-03-07-12-13-28-PM.png" /></p>
+<ul class="simple">
+<li><p>The numbers represent “annotations”, matrix manipulations to propagate these annotations along the graph structure</p></li>
+<li><p>We are performing “message passing” in the graph so that we can annotate unknown nodes (the node with the “0”)</p></li>
+<li><p>We implemented (<em>almost</em>) the formula / algorithm shown below, and with <a class="reference external" href="https://graphneural.network/layers/convolution/#gcnconv">Spektral</a> we can apply it to large-scale graphs</p></li>
+<li><p>The formula shows symmetric multiplication (diag(D) on both sides), also with inverse square root (our scaling almost does that)</p></li>
+<li><p>Spektral handles the true annotations, represented as one-hot encoded vectors (remember, computers can only understand numbers!)</p></li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -252,13 +1893,6 @@ License: Creative Commons Attribution-NonCommercial-NoDerivs<br><br>
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="1-graphs-intro.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Graph Theory and Network analysis in Bioinformatics</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
             
         </div>
